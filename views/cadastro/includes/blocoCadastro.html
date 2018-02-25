@@ -1,0 +1,78 @@
+<div class="container">
+	<div class="page-header">
+		<h3>ASA - Solutions
+			<small>
+				Cadastro de Usuários do Sistema.
+			</small>
+		</h3>
+	</div>
+	<div class="row">
+		<from class="form-horizontal" name="register" id="register"  method="post" action=""> 
+			<div class="col-md-6" id="divCadastro"> 
+				<div class="form-group">
+				    <label class="col-sm-3" for="usuario">Usuario</label>
+				    <div class="col-sm-9">
+				        <input type="text" name="usuario" id="usuario" class="form-control" placeholder="Digite seu Nome" size="40">
+				    </div>		
+				</div>
+
+				<div class="form-group">
+				    <label class="col-sm-3" for="empresa">Empresa</label>
+				    <div class="col-sm-9">
+						  <select class="custom-select mb-2 mr-sm-2 mb-sm-0 form-control" name="empresa" id="empresa">
+						    <option selected>-- Selecione --.</option>
+						  </select>
+				    </div>		
+				</div>
+
+				<div class="form-group">
+				    <label class="col-sm-3" for="senha">Senha</label>
+				    <div class="col-sm-9">
+				        <input type="password" name="senha" id="senha" class="form-control" placeholder="Digite uma Senha" size="10">
+				    </div>		
+				</div>
+				<div class="form-group">
+				    <label class="col-sm-3" for="confirmaSenha">Confirme a Senha</label>
+				    <div class="col-sm-9">
+				        <input type="password" name="confirmaSenha" id="confirmaSenha" class="form-control" placeholder="Confirme a Senha" size="10">
+				    </div>		
+				</div>
+					<div class="form-group">
+						<label class="col-sm-3">Permissões</label>
+						 <div class="col-sm-3">
+							  <label>
+							    <input type="checkbox" name="adimintrador" class="custom-control-input">
+							    <span class="custom-control-description">Adiministrador</span>
+							  </label>							  
+							  <label>
+							    <input type="checkbox" name="parametrizacao" class="custom-control-input">
+							    <span class="custom-control-description">Parametrização</span>
+							  </label>
+						</div>	 
+						<div class="col-sm-4">
+							  <label>
+							    <input type="checkbox" name="memoriaCalculo" class="custom-control-input">
+							    <span class="custom-control-description">Memória de Cálculo</span>
+							  </label>
+							   <label>
+							    <input type="checkbox" name="fbo" class="custom-control-input">
+							    <span class="custom-control-description">FBO</span>
+							  </label>						  							  						  	
+						</div>
+					</div>	  			  	
+				<div class="form-group">
+					<div class="col-sm-offset-3 col-sm-10">
+						<a type="submit" name="btnSave" id="btnSave" class="btn btn-default navbar-btn" href="">
+							<span>Salvar</span>
+						</a>
+						<a type="submit" name="btnCancel" id="btnCancel" class="btn second-button btn-default navbar-btn" href="">
+							<span>Cancelar</span>
+						</a>
+					</div>					
+				</div>																		
+			</div>
+		    <div class="col-md-6"> 
+			</div>
+		</from>
+	</div>
+</div>
